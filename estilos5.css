@@ -1,0 +1,27 @@
+body{
+  background-image: url(d.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+h1{
+  color: skyblue;
+}
+button{
+  padding: 10px 50px;
+  background-image: url(2.jpg);
+  background-size: cover;
+  color: skyblue;
+  font-family: sans-serif;
+  font-size: 18px;
+  border: 2px solid skyblue;
+}
+
+input{
+  padding: 10px 50px;
+}
+button:hover{
+  transition: 3s;
+  transform: scale(1,1);
+  border-radius: 50px;
+}
